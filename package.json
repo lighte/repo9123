@@ -1,0 +1,25 @@
+{
+  "name": "avstats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lighte/repo9123.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lighte/repo9123/issues"
+  },
+  "homepage": "https://github.com/lighte/repo9123#readme"
+}
