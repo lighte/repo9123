@@ -1,0 +1,18 @@
+<h2>Hello {{name}}</h2>
+
+<input id="url"/>
+<input id="submit" type="button" value="calculate"/>
+<div id="result"/>
+
+<script>
+//$.ajaxSetup({
+//  contentType: "application/json; charset=utf-8"
+//});
+$('#submit').click(function() {
+		//$('#result').load('/calculate?url=' + $('#url').val());//, $('#url').val(),callback);
+		$.post('/calculate', {url : $('#url').val()}, function(data, status) {
+			$('#result').html(data)
+		});
+		
+	})
+</script>
